@@ -1,7 +1,7 @@
 import React, { useState, useEffect, useRef } from 'react';
 import 'bootstrap/dist/css/bootstrap.min.css';
 
-const API_BASE_URL = 'http://localhost:3000';
+const API_BASE_URL = 'https://hotpink-connect-backend.onrender.com';
 
 function App() {
   const [currentUser, setCurrentUser] = useState('');
